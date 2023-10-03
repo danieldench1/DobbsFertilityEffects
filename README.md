@@ -1,1 +1,7 @@
 # DobbsFertilityEffects
+After the U.S. Supreme Court decision in the case Dobbs v. Jackson Women's Health Organization, several states banned abortions, and people in these regions have experienced diminished access to abortion services. Although this decision has been the biggest change in abortion legislation since Roe v. Wade in the 1970s, it is unclear whether fertility rates will return to the Roe era due to the social, political, and economic changes women have experienced in the last 50 years. We plan to use Synthetic Difference-in-Differences to estimate the effects of the Dobbs decision on fertility, both overall, by age, and by race, in ban states relative to states that kept abortion protections in place. We chose this method because of its greater-precision, lower sensitivity to selection of pre-period, and lower likelihood of non-parallel trends compared to two-way fixed effects based on simulated power analyses using pre-treatment period birth data. This registration serves as our plan for estimating these effects when the final data for 2023 is released from NCHS, which includes births 6 or more months after the decision, and therefore may have been influenced by the decision. This repository serves as demonstration of our pre-analysis plan. If we find errors to our code after the Dobbs Decision we will correct the error but we will not alter the nature of how we analyze the data.
+
+Contents
+1. Code
+2. Policy Data
+3. Power analysis
