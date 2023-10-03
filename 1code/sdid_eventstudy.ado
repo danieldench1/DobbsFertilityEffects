@@ -1,4 +1,4 @@
-*! version 1.0  92023  Daniel Dench dench@gatech.edu
+*! version 1.0  1032023  Daniel Dench dench@gatech.edu, borrows code from Sun and Abraham to construct event study weights and from the SDID procedure from clarke et al. (2023) along with advice from section 4.4 of their stata journal article
 
 capture program drop sdid_eventstudy
 capture mata: mata drop funct1() 
